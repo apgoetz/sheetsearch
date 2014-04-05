@@ -19,7 +19,7 @@ def page_no_query():
     print '''
 <html>
     <h1>SheetSearch: Simple Datasheet Search Engine</h1>
-    <form name="input" action="search.py" method="get">
+    <form name="input" method="get">
         <input type="text" name="q">
         <input type="submit" value="Search!">
     </form>
