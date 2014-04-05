@@ -5,7 +5,7 @@ javascript:function ss_cb(json) {
 	var result = results[i];
 	if("fileFormat" in result) {
 	    if(result["fileFormat"] == "PDF/Adobe Acrobat") {
-		window.location = result["url"];
+		window.location = result["unescapedUrl"];
 		return;
 	    }
 	}
